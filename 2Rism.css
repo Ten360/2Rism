@@ -1,0 +1,477 @@
+.grey {
+ color: #979797;
+}
+.violet {
+	border: none;
+	border-radius: 12px;
+	text-align: center;
+	color: #7b61ff;
+	background-color: #f6f4ff;
+}
+
+/* menu */
+nav li {
+	list-style: none;
+	margin-right: 24px;
+}
+nav ul {
+	display: flex;
+	justify-content: space-between;
+}
+nav {
+	font-family: Poppins;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 14px;
+	leading-trim: NONE;
+	line-height: 20px;
+	letter-spacing: 0%;
+	color: #ffffff;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+.account p {
+	text-align: right;
+	display: inline-block;
+}
+.account img {
+	display: inline-block;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+/* header */
+header {
+	background-image: url(img/bg-image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 120px;
+	border-bottom-left-radius: 65px;
+	border-bottom-right-radius: 65px;
+}
+.header {
+	text-align: center;
+	margin-top: 200px;
+}
+.header h1 {
+	font-family: Poppins;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 48px;
+	leading-trim: NONE;
+	line-height: 62px;
+	letter-spacing: 0%;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+.header button {
+	text-align: center;
+	width: 270px;
+	height: 70px;
+	border-radius: 10px;
+	background-color: #7B61FF;
+	color: #ffffff;
+	border: none;
+}
+.search {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 180px;
+	height: 90px;
+	background-color: #ffffff;
+	border: none;
+	border-radius: 10px;
+	width: 1030px;
+	height: 80px;
+	margin: auto;
+	margin-top: 180px;
+}
+.button button {
+	width: 60px;
+	height: 60px;
+}
+.search p, img {
+	display: inline-block;
+}
+.search p {
+	text-align: left;
+}
+.search .search-box-2 {
+	margin-left: 80px;
+}
+.search .search-box-3 {
+	margin-left: 80px;
+}
+.search .search-box-4 {
+	margin-left: 80px;
+	margin-right: 150px;
+}
+
+/* section-destinations */
+.section-destinations h1 {
+	font-family: Poppins;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 32px;
+	leading-trim: NONE;
+	line-height: 48px;
+	letter-spacing: 0%;
+	margin-top: 120px;
+	margin-bottom: 65px;
+}
+.section-destinations img {
+	width: 200px;
+	height: 180px;
+}
+.box-destinations {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.box-destinations-1 {
+	display: inline-block;
+}
+.box-destinations-2 {
+	display: inline-block;
+	margin-left: 30px;
+}
+.box-destinations-3 {
+	display: inline-block;
+	margin-left: 30px;
+}
+.box-destinations-4 {
+	display: inline-block;
+	margin-left: 30px;
+}
+.box-destinations-5 {
+	display: inline-block;
+	margin-left: 30px;
+}
+.box-destinations-6 {
+	display: inline-block;
+	margin-left: 30px;
+}
+
+/* section-hotel */
+.section-hotel {
+	margin-top: 120px;
+}
+.section-hotel h1, button {
+	display: inline-block;
+	margin-bottom: 65px;
+}
+.section-hotel button {
+	width: 105px;
+	height: 40px;
+	float: right;
+}
+.box-hotel h4 {
+	font-family: Poppins;
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 16px;
+	leading-trim: NONE;
+	line-height: 24px;
+	letter-spacing: 0%;
+}
+.box-hotel-1 {
+	display: inline-block;
+}
+.box-hotel-2 {
+	display: inline-block;
+	margin-left: 30px;
+}
+.box-hotel-3 {
+	display: inline-block;
+	margin-left: 30px;
+}
+.box-hotel-4 {
+	display: inline-block;
+	margin-left: 30px;
+}
+.box-hotel {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.img-hotel {
+	width: 316px;
+	height: 380px;
+}
+.box-hotel p {
+	font-family: Poppins;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0%;
+}
+.bottom > * {
+	display: inline-block;
+}
+.box-hotel .star {
+	float: right;
+}
+
+/* section-travel */
+.section-travel {
+	margin-top: 120px;
+}
+.section-travel h1, .violet {
+	display: inline-block;
+}
+.section-travel .violet {
+	float: right;
+}
+.travel {
+	margin-top: 65px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+.box-h {
+	font-family: Poppins;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0%;
+}
+.content-p {
+	font-family: Poppins;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0%;
+}
+.bottom-p {
+	font-family: Poppins;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: 0%;
+}
+.ice-cream > * {
+	display: inline-block;
+}
+.brooklyn > * {
+	display: inline-block;
+}
+.ice-cream {
+	max-height: 316px;
+}
+.brooklyn {
+	max-height: 316px;
+}
+.ice-cream .box-travel {
+	margin-left: 30px;
+}
+.brooklyn .box-travel {
+	margin-left: 30px;
+}
+.img-ice, .img-brooklyn {
+	float: left;
+}
+.bottom-img, .bottom-p {
+	display: inline-block;
+}
+.bottom-1 {
+	display: inline-block;
+	margin-top: 118px;
+}
+.bottom-2 {
+	margin-top: 138px;
+	display: inline-block;
+}
+
+/* section-activities */
+.section-activities {
+	margin-top: 180px;
+}
+.section-activities h1, button {
+	display: inline-block;
+}
+.section-activities button {
+	float: right;
+}
+.section-activities .activities {
+	display: flex;
+	flex-wrap: nowrap;
+	margin-top: 65px;
+}
+.section-activities .sailing {
+	margin-right: 30px;
+}
+.section-activities .climbing {
+	margin-right: 30px;
+}
+.section-activities .skiing {
+	margin-right: 30px;
+}
+.section-activities .hiking {
+	margin-right: 30px;
+}
+.activities h4 {
+	margin-top: 15px;
+	font-family: Poppins;
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0%;
+}
+.section-activities h1 {
+	font-family: Poppins;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 32px;
+	line-height: 48px;
+	letter-spacing: 0%;
+}
+.section-activities button {
+	width: 105px;
+	height: 40px;
+}
+
+/* main-about */
+.main-about {
+	margin-top: 120px;
+	margin-left: 115px;
+	margin-right: 115px;
+	display: flex;
+	justify-content: space-between;
+}
+.main-about h1 {
+	font-family: Poppins;
+	font-weight: 600;
+	font-style: SemiBold;
+	font-size: 32px;
+	line-height: 48px;
+	letter-spacing: 0%;
+}
+.main-about p {
+	font-family: Poppins;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 0%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.main-about button {
+	width: 133px;
+	height: 40px;
+}
+.main-about .content-about {
+	display: flex;
+	flex-direction: column;
+	padding-top: 88px;
+	padding-bottom: 88px;
+}
+
+/* footer */
+footer {
+	margin-top: 120px;
+	background-color: #f9f9f9;
+}
+.footer ul {
+	list-style: none;
+}
+.content {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+.rism p {
+	font-family: Poppins;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 14px;
+	leading-trim: NONE;
+	line-height: 20px;
+	letter-spacing: 0%;
+	margin-top: 16px;
+	margin-bottom: 32px;
+}
+.list p {
+	font-family: Poppins;
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 18px;
+	leading-trim: NONE;
+	line-height: 28px;
+	letter-spacing: 0%;
+}
+.list li {
+	font-family: Poppins;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 14px;
+	leading-trim: NONE;
+	line-height: 20px;
+	letter-spacing: 0%;
+	padding-top: 12px;
+	margin-left: 0;
+}
+.subscribe h3 {
+	font-family: Poppins;
+	font-weight: 500;
+	font-style: Medium;
+	font-size: 18px;
+	leading-trim: NONE;
+	line-height: 28px;
+	letter-spacing: 0%;
+}
+.rism .networks>img {
+	margin-right: 30px;
+}
+.rism .networks>p {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.list {
+	display: flex;
+	justify-content: space-between;
+}
+.list span {
+	display: inline-block;
+}
+.list ul {
+	padding-left: 0;
+	padding-right: 65px;
+}
+.email {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #fff;
+	height: 72px;
+	width: 300px;
+	border-radius: 15px;
+}
+.your_email > *{
+	display: block;
+}
+input {
+	border: none;
+}
+.subscribe .violet {
+	background-color: #7b61ff;
+	border: none;
+	width: 72px;
+	height: 72px;
+	border-radius: 12px;
+}
+.subscribe .button {
+	display: inline-block;
+	padding-left: 15px;
+}
+.subscribe-email {
+	display: flex;
+	justify-content: space-between;
+}
