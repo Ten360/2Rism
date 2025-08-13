@@ -8,6 +8,20 @@
 	color: #7b61ff;
 	background-color: #f6f4ff;
 }
+.violet:hover {
+	box-shadow: 0px 0px 24px 0px #7b61ff;
+	background-color: #f6f4ff;
+}
+.fiol {
+	text-align: center;
+	border-radius: 10px;
+	background-color: #7B61FF;
+	color: #ffffff;
+	border: none;
+}
+.fiol:hover {
+	box-shadow: 0px 0px 40px 0px #7b61ff;
+}
 
 /* menu */
 nav li {
@@ -23,7 +37,6 @@ nav {
 	font-weight: 400;
 	font-style: Regular;
 	font-size: 14px;
-	leading-trim: NONE;
 	line-height: 20px;
 	letter-spacing: 0%;
 	color: #ffffff;
@@ -44,6 +57,8 @@ nav {
 /* header */
 header {
 	background-image: url(img/bg-image.png);
+	background-attachment: fixed;
+  filter: brightness(1.1) contrast(1.1);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -60,20 +75,14 @@ header {
 	font-weight: 600;
 	font-style: SemiBold;
 	font-size: 48px;
-	leading-trim: NONE;
 	line-height: 62px;
 	letter-spacing: 0%;
 	color: #ffffff;
 	margin-bottom: 30px;
 }
 .header button {
-	text-align: center;
 	width: 270px;
 	height: 70px;
-	border-radius: 10px;
-	background-color: #7B61FF;
-	color: #ffffff;
-	border: none;
 }
 .search {
 	display: flex;
@@ -116,7 +125,6 @@ header {
 	font-weight: 600;
 	font-style: SemiBold;
 	font-size: 32px;
-	leading-trim: NONE;
 	line-height: 48px;
 	letter-spacing: 0%;
 	margin-top: 120px;
@@ -172,7 +180,6 @@ header {
 	font-weight: 500;
 	font-style: Medium;
 	font-size: 16px;
-	leading-trim: NONE;
 	line-height: 24px;
 	letter-spacing: 0%;
 }
@@ -392,7 +399,6 @@ footer {
 	font-weight: 400;
 	font-style: Regular;
 	font-size: 14px;
-	leading-trim: NONE;
 	line-height: 20px;
 	letter-spacing: 0%;
 	margin-top: 16px;
@@ -403,7 +409,6 @@ footer {
 	font-weight: 500;
 	font-style: Medium;
 	font-size: 18px;
-	leading-trim: NONE;
 	line-height: 28px;
 	letter-spacing: 0%;
 }
@@ -412,7 +417,6 @@ footer {
 	font-weight: 400;
 	font-style: Regular;
 	font-size: 14px;
-	leading-trim: NONE;
 	line-height: 20px;
 	letter-spacing: 0%;
 	padding-top: 12px;
@@ -423,7 +427,6 @@ footer {
 	font-weight: 500;
 	font-style: Medium;
 	font-size: 18px;
-	leading-trim: NONE;
 	line-height: 28px;
 	letter-spacing: 0%;
 }
@@ -461,11 +464,8 @@ input {
 	border: none;
 }
 .subscribe .violet {
-	background-color: #7b61ff;
-	border: none;
 	width: 72px;
 	height: 72px;
-	border-radius: 12px;
 }
 .subscribe .button {
 	display: inline-block;
@@ -473,5 +473,6 @@ input {
 }
 .subscribe-email {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 }
